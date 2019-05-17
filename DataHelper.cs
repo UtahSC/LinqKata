@@ -22,55 +22,55 @@ namespace Tests
             new Planet {
                 Name="Mercury",
                 Ordinal=1,
-                Mass=2.1,
+                Mass=0.0553,
                 IsHabitable=false
             },
             new Planet {
                 Name="Venus",
                 Ordinal=2,
-                Mass=20.1,
+                Mass=0.815,
                 IsHabitable=false
             },
             new Planet {
                 Name="Earth",
                 Ordinal=3,
-                Mass=20.1,
+                Mass=1,
                 IsHabitable=true
             },
             new Planet {
                 Name="Mars",
                 Ordinal=4,
-                Mass=10.1,
+                Mass=0.11,
                 IsHabitable=false
             },
             new Planet {
                 Name="Jupiter",
                 Ordinal=5,
-                Mass=500.1,
+                Mass=317.8,
                 IsHabitable=false
             },
             new Planet {
                 Name="Saturn",
                 Ordinal=6,
-                Mass=200.1,
+                Mass=95.2,
                 IsHabitable=false
             },
             new Planet {
                 Name="Uranus",
                 Ordinal=7,
-                Mass=100.1,
+                Mass=14.6,
                 IsHabitable=false
             },
             new Planet {
                 Name="Neptune",
                 Ordinal=8,
-                Mass=100.1,
+                Mass=17.2,
                 IsHabitable=false
             },
             new Planet {
                 Name="Pluto - Totally still a planet!",
                 Ordinal=9,
-                Mass=1.1,
+                Mass=0.0024,
                 IsHabitable=false
             },
         };
