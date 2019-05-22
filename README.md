@@ -13,17 +13,17 @@ For the first unit test, write a test that gets a list of integers from `DataHel
 
 Do not use LINQ as part of your test code, but _do_ use LINQ as part of your implementation.
 
-## `GetAllEvens()` Second Test
-We are going to add a requirement that the `GetAllEvens()` method should return its results ordered from smallest to largest. For the second unit test, write a test that ensures that the list that your code returns is in ascending order.
+## `GetAllEvens()` Second Test (protection against evil)
+Imagine for a moment that for this kata you are responsible for writing the unit tests and another person is writing the implementation. Now imagine that the other person is evil and wants to do whatever they can to _not_ implement their code the correct way.
+
+Could someone write code that passes the tests we have written so far that doesn't actually do the thing we want it to? Yes, they could. What if the implementation of the `GetAllEvens()` method was simply `return new List<int> { 2 }`? Every integer in the list is even. But it is not actually the result we want.
+
+For the second test, write a unit test that ensures that every even number in the original list is also in the result list.
 
 Do not use LINQ as part of your code for this test.
 
-## `GetAllEvens()` Third Test (protection against evil)
-Imagine for a moment that for this kata you are responsible for writing the unit tests and another person is writing the implementation. Now imagine that the other person is evil and wants to do whatever they can to _not_ implement their code the correct way.
-
-Could someone write code that passes the tests we have written so far that doesn't actually do the thing we want it to? Yes, they could. What if the implementation of the `GetAllEvens()` method was simply `return new List<int> { 2 }`? Every integer in the list is even. The list is in ascending order. But it is not actually the result we want.
-
-For the third test, write a unit test that ensures that every even number in the original list is also in the result list.
+## `GetAllEvens()` Third Test
+We are going to add a requirement that the `GetAllEvens()` method should return its results ordered from smallest to largest. For the third unit test, write a test that ensures that the list that your code returns is in ascending order.
 
 Do not use LINQ as part of your code for this test.
 
